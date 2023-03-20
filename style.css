@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.navbar {
+  color: #fff;
+  background-color: #333;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 1rem 4%;
+}
+
+.navbar .navbar-logo h1 {
+  margin-right: 3rem;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.navbar .navbar-nav a {
+  margin: 0 1rem;
+  display: inline-block;
+  color: #fff;
+}
+
+.main {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+
+.main h1 span {
+  color: rgb(255, 234, 0);
+}
+
+.main h2 {
+  font-weight: 200;
+}
+
+.main .ninjaken img {
+  height: 20rem;
+}
+
+.main2 {
+  background-color: #eee;
+}
+.main2-text {
+  text-align: justify;
+  margin: 0 4%;
+  padding: 5rem;
+}
+
+.main2-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.main3 {
+  padding: 3rem;
+  text-align: center;
+}
+
+.main3 h3 {
+  margin-bottom: 1rem;
+}
+
+.main3 .main3-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 4%;
+}
+.main3 .main3-card .card-in img {
+  height: 10rem;
+}
+
+.form {
+  background-color: #eee;
+  text-align: center;
+  padding: 3rem;
+}
+
+.form h3 {
+  margin-bottom: 1rem;
+}
+
+::placeholder {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+.form input,
+.form textarea,
+.form button {
+  margin: 0.5rem;
+  width: 50%;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+.form textarea {
+  height: 4rem;
+}
+
+.form button {
+  width: 20%;
+  cursor: pointer;
+  background-color: rgb(248, 235, 92);
+  font-family: "Fira Sans", sans-serif;
+}
+
+.form button:hover {
+  background-color: rgb(248, 230, 92);
+}
+
+.footer-content {
+  padding: 1rem 4%;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content .footer-logo h1 {
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.footer-content .footer-list a {
+  margin: 1rem;
+  color: #fff;
+  display: block;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 670px) {
+  html {
+    font-size: 60%;
+  }
+
+  .form input,
+  .form textarea {
+    font-size: 80%;
+    width: 70%;
+  }
+
+  .form button {
+    width: 30%;
+    font-size: 80%;
+  }
+}
